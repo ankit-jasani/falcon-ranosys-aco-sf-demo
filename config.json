@@ -1,32 +1,32 @@
 {
   "public": {
     "default": {
-      "commerce-core-endpoint": "https://na1-sandbox.api.commerce.adobe.com/GSnKiqpZtxHnpptoxJC6L9/graphql",
+      "commerce-core-endpoint": "https://aemshop.net/graphql",
       "commerce-endpoint": "https://na1-sandbox.api.commerce.adobe.com/GSnKiqpZtxHnpptoxJC6L9/graphql",
       "headers": {
         "all": {
           "Store": "default"
         },
         "cs": {
-          "AC-View-ID": "YOUR_HEADER_VALUE",
-          "AC-Price-Book-ID": "YOUR_HEADER_VALUE",
-          "AC-Source-Locale": "YOUR_HEADER_VALUE"
+          "AC-View-ID": "a53e62e4-9eb8-4769-bf86-81c2d7dd5f98",
+          "AC-Price-Book-ID": "east_coast_inc",
+          "AC-Source-Locale": "en-US"
         }
       },
       "analytics": {
         "base-currency-code": "USD",
-        "environment": "Production",
+        "environment": "Sandbox",
         "environment-id": "GSnKiqpZtxHnpptoxJC6L9",
-        "store-code": "YOUR_STORE_CODE",
-        "store-id": "YOUR_STORE_ID",
-        "store-name": "YOUR_STORE_NAME",
-        "store-url": "YOUR_STORE_URL",
-        "store-view-code": "YOUR_STORE_VIEW_CODE",
-        "store-view-id": "YOUR_STORE_VIEW_ID",
-        "store-view-name": "YOUR_STORE_VIEW_NAME",
-        "website-code": "YOUR_WEBSITE_CODE",
-        "website-id": "YOUR_WEBSITE_ID",
-        "website-name": "YOUR_WEBSITE_NAME"
+        "store-code": "main_website_store",
+        "store-id": "1",
+        "store-name": "ACO Demo Store",
+        "store-url": "https://main--falcon-ranosys-aco-sf-demo--ankit-jasani.aem.live",
+        "store-view-code": "default",
+        "store-view-id": "1",
+        "store-view-name": "Default Store View",
+        "website-code": "base",
+        "website-id": "1",
+        "website-name": "Main Website"
       },
       "plugins": {
         "picker": {
